@@ -34,26 +34,14 @@ Este archivo README proporciona instrucciones para instalar Python 3.11 y config
 ### Windows
 
     env\Scripts\activate
-    pip install streamlit
-    pip install streamlit-folium
-    pip install plotly
-    pip install pandas
-    pip install streamlit-extras
-    pip install folium
-    pip install branca==0.3.1
-    streamlit run "aplicacion\inicio.py"
+    pip install -r requirements.txt
+    streamlit run "app\main.py"
 
 ### macOs o Linux(Ubuntu)
 
     env\bin\activate    
-    pip install streamlit
-    pip install streamlit-folium
-    pip install plotly
-    pip install pandas
-    pip install streamlit-extras
-    pip install folium
-    pip install branca==0.3.1
-    streamlit run "aplicacion\inicio.py"
+    pip install -r requirements.txt
+    streamlit run "app\main.py"
 
 
 
